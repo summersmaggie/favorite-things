@@ -6,9 +6,40 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>My Favorite Things</title>
   </head>
   <body>
+    <div class="container">
+      <h1>A Few of My Favorite Things</h1>
+      <p>Tell us a few of your favorite things!</p>
 
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="food">What's your favorite food?</label>
+            <input id="food" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">What's your favorite color?</label>
+            <input id="color" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="season">What's your favorite season?</label>
+            <input id="season" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="music">What's your favorite kind of music?</label>
+            <input id="music" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my favorites!</button>
+        </form>
+      </div>
+
+      <div id="result">
+        <h2>Your favorites are: <span class="food"></span>, <span class="color"></span>, <span class="season"></span>, <span class="music"></span>.</h2>
+      </div>
+
+    </div>
   </body>
 </html>
